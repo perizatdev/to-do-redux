@@ -1,0 +1,19 @@
+.postForm{
+display: flex;
+    gap: 5px;
+}
+.button-form{
+    background-color: rgb(54,125,247);
+    height: 48px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 0 35px;
+
+}
+.input-form{
+    width: 100%;
+    padding-left: 10px;
+
+}

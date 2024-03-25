@@ -1,0 +1,25 @@
+.postItem{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+.postItem-btn{
+    background: rgb(249, 73,73);
+    color: white;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    padding:10px 10px;
+}
+.postItem:hover {
+    background-color: rgb(54,125,247);
+    color: white;
+
+}
+.postItem.active{
+    background-color:red;
+}
